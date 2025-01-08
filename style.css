@@ -1,0 +1,57 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: repeating-linear-gradient(
+      50deg,
+      #f7a37b,
+      #f7a37b 1em,
+      #ffdea8 1em,
+      #ffdea8 2em,
+      #d0e4b0 2em,
+      #d0e4b0 3em,
+      #7cc5d0 3em,
+      #7cc5d0 4em,
+      #00a2e1 4em,
+      #00a2e1 5em,
+      #0085c8 5em,
+      #0085c8 6em
+    ),
+    repeating-linear-gradient(
+      -50deg,
+      #f7a37b,
+      #f7a37b 1em,
+      #ffdea8 1em,
+      #ffdea8 2em,
+      #d0e4b0 2em,
+      #d0e4b0 3em,
+      #7cc5d0 3em,
+      #7cc5d0 4em,
+      #00a2e1 4em,
+      #00a2e1 5em,
+      #0085c8 5em,
+      #0085c8 6em
+    );
+
+  background-blend-mode: multiply;
+}
